@@ -3,5 +3,26 @@
 @import 'variables';
 
 body {
-  background-color: $favColor;
+  background-image: url("https://i.imgur.com/O48shjV.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+
+.card {
+  width: 10rem;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.card-img-top {
+  height: 10rem;
+}
+
+.forest-container {
+  display: flex;
+  flex-flow: row wrap;
 }
