@@ -191,7 +191,8 @@ const pickAMushroom = () => {
   if (mushrooms.length) {
     const randomShroom = Math.floor(Math.random() * Math.floor(mushrooms.length));
     const removedShroom = mushrooms.slice(randomShroom, randomShroom + 1);
-    basket.push(removedShroom);
+    mushrooms.splice(randomShroom, 1);
+    basket.push(removedShroom[0]);
   }
 };
 
